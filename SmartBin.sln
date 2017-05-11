@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26228.9
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI", "UI\UI.csproj", "{6D0AE4B9-684E-4F9A-A327-53C3553E0DC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BL", "BL\BL.csproj", "{78DE6A7D-04F7-4FCB-B45F-EC727C7DAB69}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D0AE4B9-684E-4F9A-A327-53C3553E0DC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D0AE4B9-684E-4F9A-A327-53C3553E0DC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D0AE4B9-684E-4F9A-A327-53C3553E0DC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D0AE4B9-684E-4F9A-A327-53C3553E0DC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78DE6A7D-04F7-4FCB-B45F-EC727C7DAB69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78DE6A7D-04F7-4FCB-B45F-EC727C7DAB69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78DE6A7D-04F7-4FCB-B45F-EC727C7DAB69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78DE6A7D-04F7-4FCB-B45F-EC727C7DAB69}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
